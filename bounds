@@ -17,7 +17,7 @@ a_3=(gamma*(exp(2*R)-1));
 a_4=a_2./a_3;
 s=a_1*(a_4-1);
 theta2 = sigma^2+gamma/2-sigma^2/(2*s)+sqrt(gamma*sigma^2+(gamma/2-sigma^2/(2*s))^2)
-
+% above is eqn. (93) from Vazquez-Vilar, 2021.
 delta=theta2-sigma2; %delta
 delta2=delta.^2;
 sigma1=sigma./delta;
